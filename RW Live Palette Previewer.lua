@@ -199,7 +199,7 @@ local function renderPalette(sprite, renderEffects)
                             end
                         end
                     end
-                elseif x == 31 and y == 1 then
+                elseif x == 10 and y == 1 then
                     sprite.layers.fog.opacity = Clamp((255 - palColor.red), 0, 255)
                 elseif y == 2 then -- grime colors
                     if not sprite.grimeColors then
